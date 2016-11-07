@@ -7,8 +7,8 @@ public class ejercicio01 {
 	public static void main (String[]args) {
 		teclado = new Scanner (System.in);
 		int A  , B ;
-		int resultado = 0;
-		int indice = A+1;      //tendra los valores desde A+1 hasta B-1
+		int resultado;
+		int indice;      //tendra los valores desde A+1 hasta B-1
 
 		
 		System.out.print ("ingrese primer valor:");
@@ -16,12 +16,13 @@ public class ejercicio01 {
 		System.out.print ("ingrese segundo valor:");
 		B=teclado.nextInt ();
 		
+		resultado = 0;
+		indice = A+1;
 		while (indice<=B-1) {               //tambien se puede poner (indice=b) 
 			
 			resultado = resultado + indice ;
 			indice = indice + 1 ;
-			System.out.print (resultado);
 				}
+		System.out.print (resultado);
 			}
 		}
-
