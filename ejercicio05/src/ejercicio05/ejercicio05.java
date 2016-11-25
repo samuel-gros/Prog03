@@ -1,6 +1,8 @@
+package ejercicio05;
+
 import java.util.Scanner;
 
-public class Ejercicio05 { //Hacer un programa que lea una serie de números por teclado de manera que cuando 
+public class ejercicio05 { //Hacer un programa que lea una serie de números por teclado de manera que cuando 
 		//el número leído sea el cero ya no se introduzcan más, el programa debe calcular y escribir la suma 
 		//de los números de la serie y cuántos se han introducido en total.
 
